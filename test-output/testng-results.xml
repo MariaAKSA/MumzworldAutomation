@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser setup completed and maximized.]]>
+    </line>
+    <line>
+      <![CDATA[Opened the Mumzworld webstore.]]>
+    </line>
+    <line>
+      <![CDATA[Searched for the product 'puzzle toy'.]]>
+    </line>
+    <line>
+      <![CDATA[Added the product to the bag.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to the view bag page.]]>
+    </line>
+    <line>
+      <![CDATA[Increased the quantity to 5 items.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked the Proceed to Checkout button.]]>
+    </line>
+    <line>
+      <![CDATA[Registered a new user.]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-21T13:51:34 AZT" name="Default suite" finished-at="2024-08-21T13:52:20 AZT" duration-ms="46434">
+    <groups>
+    </groups>
+    <test started-at="2024-08-21T13:51:34 AZT" name="Default test" finished-at="2024-08-21T13:52:20 AZT" duration-ms="46434">
+      <class name="mumzworld.mumzworldTestcases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mumzworld.mumzworldTestcases@7586beff]" started-at="2024-08-21T13:51:34 AZT" name="setup" finished-at="2024-08-21T13:51:42 AZT" duration-ms="7633" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser setup completed and maximized.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testOpenWebstore()[pri:0, instance:mumzworld.mumzworldTestcases@7586beff]" started-at="2024-08-21T13:51:42 AZT" name="testOpenWebstore" finished-at="2024-08-21T13:51:55 AZT" duration-ms="13061" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opened the Mumzworld webstore.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testOpenWebstore -->
+        <test-method signature="testSearchProduct()[pri:0, instance:mumzworld.mumzworldTestcases@7586beff]" started-at="2024-08-21T13:51:55 AZT" name="testSearchProduct" finished-at="2024-08-21T13:51:57 AZT" depends-on-methods="mumzworld.mumzworldTestcases.testOpenWebstore" duration-ms="1968" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Searched for the product 'puzzle toy'.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method signature="testAddToBag()[pri:0, instance:mumzworld.mumzworldTestcases@7586beff]" started-at="2024-08-21T13:51:57 AZT" name="testAddToBag" finished-at="2024-08-21T13:52:09 AZT" depends-on-methods="mumzworld.mumzworldTestcases.testSearchProduct" duration-ms="12484" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Added the product to the bag.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddToBag -->
+        <test-method signature="testGoToViewBag()[pri:0, instance:mumzworld.mumzworldTestcases@7586beff]" started-at="2024-08-21T13:52:09 AZT" name="testGoToViewBag" finished-at="2024-08-21T13:52:10 AZT" depends-on-methods="mumzworld.mumzworldTestcases.testAddToBag" duration-ms="1071" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to the view bag page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGoToViewBag -->
+        <test-method signature="testIncreaseQuantity()[pri:0, instance:mumzworld.mumzworldTestcases@7586beff]" started-at="2024-08-21T13:52:10 AZT" name="testIncreaseQuantity" finished-at="2024-08-21T13:52:18 AZT" depends-on-methods="mumzworld.mumzworldTestcases.testGoToViewBag" duration-ms="7349" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Increased the quantity to 5 items.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIncreaseQuantity -->
+        <test-method signature="testProceedToCheckout()[pri:0, instance:mumzworld.mumzworldTestcases@7586beff]" started-at="2024-08-21T13:52:18 AZT" name="testProceedToCheckout" finished-at="2024-08-21T13:52:18 AZT" depends-on-methods="mumzworld.mumzworldTestcases.testIncreaseQuantity" duration-ms="655" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked the Proceed to Checkout button.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testProceedToCheckout -->
+        <test-method signature="testRegisterUser()[pri:0, instance:mumzworld.mumzworldTestcases@7586beff]" started-at="2024-08-21T13:52:18 AZT" name="testRegisterUser" finished-at="2024-08-21T13:52:20 AZT" depends-on-methods="mumzworld.mumzworldTestcases.testProceedToCheckout" duration-ms="1557" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Registered a new user.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRegisterUser -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:mumzworld.mumzworldTestcases@7586beff]" started-at="2024-08-21T13:52:20 AZT" name="teardown" finished-at="2024-08-21T13:52:20 AZT" duration-ms="500" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- mumzworld.mumzworldTestcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
