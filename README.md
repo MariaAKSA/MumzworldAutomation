@@ -57,6 +57,10 @@ Test results and reports will be generated in the target directory.
 **Project Structure**
 
 src/main/java/ - Contains the main source code.
+
 src/test/java/ - Contains the test cases.
+
 pom.xml - Maven configuration file with dependencies and plugins.
+
 test-output/ - Contains TestNG reports.
+
